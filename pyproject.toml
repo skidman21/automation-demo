@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "automation-demo"
+version = "0.1.0"
+description = ""
+authors = ["Shirley Kidman <shirley.kidman@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyleniumio = "^1.12.4"
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b0"
+flake8 = "^3.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
